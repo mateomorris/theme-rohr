@@ -1,0 +1,99 @@
+/* Default content styles */
+
+*::-moz-selection {
+  --bg-opacity: 1 !important;
+  background-color: #2a4365 !important;
+  background-color: rgba(42, 67, 101, var(--bg-opacity)) !important;
+  --text-opacity: 1 !important;
+  color: #ebf8ff !important;
+  color: rgba(235, 248, 255, var(--text-opacity)) !important;
+}
+
+*::selection {
+  --bg-opacity: 1 !important;
+  background-color: #2a4365 !important;
+  background-color: rgba(42, 67, 101, var(--bg-opacity)) !important;
+  --text-opacity: 1 !important;
+  color: #ebf8ff !important;
+  color: rgba(235, 248, 255, var(--text-opacity)) !important;
+}
+
+.primo-copy {
+  font-size: 1.125rem;
+  --text-opacity: 1;
+  color: #1a202c;
+  color: rgba(26, 32, 44, var(--text-opacity));
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.primo-copy p {
+    margin-bottom: 1rem;
+  }
+
+.primo-copy h1 {
+    font-size: 1.875rem;
+    font-weight: 700;
+    margin-bottom: 0.25rem;
+  }
+
+.primo-copy h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 0.25rem;
+  }
+
+.primo-copy h3 {
+    font-size: 1.25rem;
+    font-weight: 700;
+  }
+
+.primo-copy h4 {
+    font-size: 1.125rem;
+    font-weight: 600;
+  }
+
+.primo-copy h5, .primo-copy h6 {
+    font-weight: 600;
+  }
+
+.primo-copy ol {
+    list-style-type: decimal;
+    margin-bottom: 1rem;
+  }
+
+.primo-copy ul {
+    list-style-type: disc;
+    list-style-position: inside;
+    margin-bottom: 1rem;
+  }
+
+.primo-copy ul p {
+      display: inline;
+    }
+
+.primo-copy ol {
+    list-style-type: decimal;
+    list-style-position: inside;
+  }
+
+.primo-copy a {
+    --text-opacity: 1;
+    color: #3182ce;
+    color: rgba(49, 130, 206, var(--text-opacity));
+    text-decoration: underline;
+  }
+
+.primo-copy blockquote {
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    padding: 1.5rem;
+  }
+
+.primo-copy mark {
+    --text-opacity: 1;
+    color: #2c5282;
+    color: rgba(44, 82, 130, var(--text-opacity));
+    --bg-opacity: 1;
+    background-color: #ebf8ff;
+    background-color: rgba(235, 248, 255, var(--bg-opacity));
+  }
